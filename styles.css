@@ -16,18 +16,20 @@ body{
     flex-wrap: wrap;
     display: inline-flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     gap: 10px;
     background-color: #0d6efd;
     font: white;
-    width: 377px;
-    height: 342px;
+    width: 100px;
+    height: 34px;
     flex-shrink: 0;
 }
 
-.flex-profile {
-    display: flex;
+.container {
+    display: table;
     gap: 10px;
-}
-
+    gap: 10px 10px; /* row-gap column gap */
+    row-gap: 10px;
+    column-gap: 100px;
+  }
 
